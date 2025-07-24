@@ -1,0 +1,8 @@
+Architectures: iphoneos-arm iphoneos-arm64
+Codename: iOS
+Components: main
+Description: unofficial repo for archiving tweaks
+Label: Legacy guides
+Origin: Legacy guides
+Suite: stable
+Version: 1.0
