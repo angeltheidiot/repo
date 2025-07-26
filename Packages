@@ -159,6 +159,20 @@ Dev: dpkgdan
 Name: Power Tap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.google.ios.youtube
+Version: 2.2.0
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides
+Filename: debs/YouTube_2.2.0-b5_patched.deb
+Size: 7626428
+MD5sum: 4001a42e9e4c20db220875313d9f83ba
+SHA1: 736440f9a89f09cb01b912fb1fcfc6e0b68f3352
+SHA256: 536f085dcd4deb6cb1e6688ab27b095d0ae88a95106ec0b143073ba5c84608b8
+Section: Applications
+Description: YouTube 2.2.0 app (patched for copyrighted playback)
+Author: Google
+Name: YouTube
+
 Package: com.hackyouriphone.localiapstore
 Version: 1.4-4
 Architecture: iphoneos-arm
