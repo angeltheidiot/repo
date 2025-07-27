@@ -175,10 +175,10 @@ Installed-Size: 104
 Depends: coreutils
 Recommends: dualbootstuff, coolbootercli
 Filename: debs/io.chillboi20.coolbooterhelper_1.0.0b5_iphoneos-arm.deb
-Size: 3372
-MD5sum: b36268b3925c7aed251bceed04d0069d
-SHA1: 3b49085c522c94f79d7b33cf61c9471f926ace54
-SHA256: 5ee592c5d52e02bbc899212a5430b00d435fde544208651db1063b4c3d1ed7aa
+Size: 3394
+MD5sum: e2c0c130118007b93f59c417a19d23d1
+SHA1: fb59231036b3cff5bcd616d3147d199c1d915bab
+SHA256: 5d9c991496615d31d59648aac2ab024a008373b796c03b3a6aaaffe4190dc541
 Section: Tweaks
 Homepage: http://chillboi20.github.io
 Description: A script for using CoolBooter CLI and managing partitions
