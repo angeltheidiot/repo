@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: iOS
 Components: main
-Description: unofficial repo for archiving tweaks
+Description: unofficial repo for archiving useful tweaks. This project is not affiliated with or endorsed by Apple Inc. "iOS" and "Apple" are trademarks of Apple Inc., used here only for descriptive and educational purposes.
 Label: Legacy guides
 Origin: Legacy guides
 Suite: stable
