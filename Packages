@@ -110,6 +110,22 @@ Icon: file:///Applications/WifiPasswordList.app/Icon-60.png
 Name: Wifi Passwords List
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.beta.ios-6-pods-hack
+Version: 2.0.1-beta
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
+Filename: debs/ios-6-pods-hack_2.0-BETA2.deb
+Size: 262414
+MD5sum: 0f096e9326d2614f7a98599ec2453816
+SHA1: b0d7c69ff7879ee8845cb0f6250be8a423765f78
+SHA256: 9ba3be1761fdd7c0c2ae1150142eef1a143586de5064d4c6a1e975d12b0f8edc
+Section: Tweaks
+Priority: optional
+Description: workaround for AirPods disconnection issues on iOS 6  (control file improved by LegacyGuides owner)
+Author: asentientbot
+Name: iOS 6 Pods Hack improved (BETA)
+
 Package: com.boo.airport
 Version: 2.1
 Architecture: iphoneos-arm
