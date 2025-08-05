@@ -19,6 +19,36 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: angeltheidiot
+Version: 1.0.0b2
+Architecture: iphoneos-arm
+Maintainer: chillboi20
+Installed-Size: 104
+Filename: debs/coolbooterhelper_1.0.0b2_iphoneos-arm.deb
+Size: 3256
+MD5sum: 8f2e6982a3ea7c437e84de91ac41f3c0
+SHA1: 067767a5ac8a71b2129d64c87b142247c0b64fc4
+SHA256: 8afcf66b643bd9a915445a72dcbb225ab667cdff9ce98503bce0945691b66df9
+Section: Tweaks
+Description: A script for using CoolBooter CLI and managing partitions
+Author: chillboi20 <chillboialt@gmail.com>
+Name: CoolBooter Helper
+
+Package: clutch13
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: KJCracks
+Conflicts: clutch2
+Filename: debs/clutch13_1.3_iphoneos-arm.deb
+Size: 44522
+MD5sum: 0b52b8967d22ad31e7f44ac95235f213
+SHA1: 6c66cedeb997390d85c4961f2f499782e45fc963
+SHA256: 6a60dc320e85bdcab349e3164cb8cf8df2bb091ca026e1abc3a5c42fe7f9c943
+Section: Terminal Support
+Description: High-speed iOS app decryption tool (iOS 5)
+Author: KJCracks
+Name: Clutch 1.3
+
 Package: co.dynastic.ios.tweak.shortlook
 Version: 1.0.23
 Architecture: iphoneos-arm
@@ -173,6 +203,23 @@ Description: YouTube 2.2.0 app (patched for copyrighted playback)
 Author: Google
 Name: YouTube
 
+Package: com.hackulo.us.sourcegui
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Genius Blog <admin@hackulo.us
+Filename: debs/com.hackulo.us.sourcegui_1.2_iphoneos-arm.deb
+Size: 8512
+MD5sum: 4c4de2cfa27ab45eb12f411f6301020b
+SHA1: e66347237e0e0660b2723e54ee1fce92dd92d3a6
+SHA256: b700e462900e378d942535ac4fabcaa8132cf0cab9d2dc96e7b6e32ccd9a4b9a
+Section: Hackulo.us
+Priority: standard
+Description: Hackulo.us Source GUI adds the source icons
+Author: Genius Blog <admin@hackulo.us>
+Depiction: http://hackulo.us/depict/sourcegui
+Name: Source GUI
+Sponsor: Hackulo.us <http://hackulo.us>
+
 Package: com.hackyouriphone.localiapstore
 Version: 1.4-4
 Architecture: iphoneos-arm
@@ -190,6 +237,26 @@ Author: anondev <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=localiapstore
 Name: LocalIAPStore
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=localiapstore
+
+Package: com.ichitaso.3gshdvideoenabler
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Depends: firmware  (<= 4.2.1), cy+model.iphone (= 2.1)
+Conflicts: com.iphonerepocenter.hdvideoenabler3gstheme
+Filename: debs/com.ichitaso.3gshdvideoenabler.deb
+Size: 3714
+MD5sum: c0c87c465d95c535deec771e520a038b
+SHA1: 636ae4ef1f4c152ff2dff7a01e5931936ff03ee1
+SHA256: d00e05611ef672db86deb65d0d4c010aff32f2c60bcb857498c3bc7e9e102489
+Section: System
+Homepage: http://ichitaso.com
+Description: SuperHD Video Rec Enabled for iPhone 3GS.
+Tag: purpose::extension
+Author: ichitaso
+Depiction: http://ichitaso.com/apt/depiction/3gshdvideo.html
+Dev: ichitaso
+Name: 3GS HD Video Enabler
 
 Package: com.kjcracks.clutch
 Version: 2.0.4
@@ -958,6 +1025,25 @@ Description: AppSync patches the installd file on your device
 Author: Dissident <apps@hackulo.us>
 Depiction: http://hackulo.us/depict/appsync32/
 Name: AppSync for OS 3.2
+Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: us.hackulo.crackulous
+Version: 1.0.0.5
+Architecture: iphoneos-arm
+Maintainer: Dissident <apps@hackulo.us>
+Pre-Depends: firmware (>= 4.0)
+Depends: zip, com.hackulo.us.sourcegui
+Filename: debs/us.hackulo.crackulous_1.0.0.5_iphoneos-arm.deb
+Size: 1187364
+MD5sum: 108c7095ded76dd273e8094c4b28d0d1
+SHA1: 9ac3a2545f94c9d921983b143cd2983ca2c5b87f
+SHA256: d849b96e95d34b2115c0e2c03b0df998d21bc4241a3b3a556a91b319a21a4c97
+Section: Hackulo.us
+Priority: standard
+Description: Crackulous is an easy-to-use cracking utility.
+Author: Docmorelli <apps@hackulo.us>
+Depiction: http://hackulo.us/depict/crackulous/
+Name: Crackulous
 Sponsor: Hackulo.us <http://hackulo.us>
 
 Package: xyz.willy.zebra
