@@ -97,6 +97,23 @@ Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
 Name: ChromaHomeBarX
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.alpden.3denabler
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: alpden <alpden@iguides.ru>
+Depends: firmware (>= 6.0), mobilesubstrate
+Filename: debs/com.alpden.3denabler_1.0_iphoneos-arm.deb
+Size: 3628
+MD5sum: e79ddc588b99bb07a1b19be174d0d1fb
+SHA1: 1270b5a85f8799a1eea20eaf311df89cb0b1b5a4
+SHA256: bab5733decec2959692b6e6f6f19d3e7c2bbec9f871580f2207ff8e15b731c58
+Section: iGuides-Mods
+Priority: optional
+Author: Anton Titkov
+Depiction: Enables 3D and Turn-by-turn navigation(beta) on iPhone 4/3GS,iTouch 4
+Name: 3DEnabler
+Sponsor: iGuides <http://www.iguides.ru>
+
 Package: com.ashapps.wifipasswordslist
 Version: 1.0.1-1
 Architecture: iphoneos-arm
@@ -240,11 +257,11 @@ Package: com.google.ios.youtube
 Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: LegacyGuides
-Filename: debs/YouTube_2.2.0-b5_patched.deb
-Size: 7626428
-MD5sum: 4001a42e9e4c20db220875313d9f83ba
-SHA1: 736440f9a89f09cb01b912fb1fcfc6e0b68f3352
-SHA256: 536f085dcd4deb6cb1e6688ab27b095d0ae88a95106ec0b143073ba5c84608b8
+Filename: debs/com.google.ios.youtube_2.2.0_iphoneos-arm.deb
+Size: 7626050
+MD5sum: 52988f94f06c795173786b6deba6fa44
+SHA1: 435a021efb8d1105dfb2c92711d3e1326919fff0
+SHA256: 996662ddf522c1cfef4364a73e6165c0c28a61bffa87901b9163ba8812da2bd2
 Section: Applications
 Description: YouTube 2.2.0 app (patched for copyrighted playback)
 Author: Google
@@ -267,6 +284,23 @@ Depiction: http://hackulo.us/depict/sourcegui
 Name: Source GUI
 Sponsor: Hackulo.us <http://hackulo.us>
 
+Package: com.hackyouriphone.classiclockscreen
+Version: 3.3.1k
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
+Filename: debs/org.coolstar..classiclockscreen_3.3.1_iphoneos-arm.deb
+Size: 736186
+MD5sum: 7d5da71444883fec6d4273860d981ca3
+SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
+SHA256: 225d085f3b8af7bd9b3f1b479efa56c9804c87e7afa322689dc676ffe83ff2ef
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Description: Hate the iOS 7 Lock Screen?
+Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
+Name: ClassicLockScreen
+
 Package: com.ichitaso.3gshdvideoenabler
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -286,6 +320,22 @@ Author: ichitaso
 Depiction: http://ichitaso.com/apt/depiction/3gshdvideo.html
 Dev: ichitaso
 Name: 3GS HD Video Enabler
+
+Package: com.ivanobilenchi.icleanerdarktheme
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: winterboard
+Filename: debs/iCleanerDarkTheme_1.0.2.deb
+Size: 1274
+MD5sum: 5e798339af8424c399d5373630007dd7
+SHA1: a058489360ec590c87722bff7ff3e7b8bb5a197d
+SHA256: 5188576106e2f9657da7d7520e416e98b799586e6f4b9ff43bdcdc5205fd191c
+Section: Themes
+Homepage: http://ib-soft.net/icleaner
+Description: Dark theme for the iCleaner and iCleaner Pro apps.
+Author: Ivano Bilenchi <support@ib-soft.net>
+Name: iCleaner Dark Theme
 
 Package: com.jamied360.ncsettings
 Version: 1.7.1
@@ -457,6 +507,22 @@ Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 Name: Choicy
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.parrotgeek.nobetaalert
+Version: 1.4.3
+Architecture: iphoneos-arm
+Maintainer: Ethan Nelson-Moore
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9)
+Filename: debs/com.parrotgeek.nobetaalert_1.4.3_iphoneos-arm.deb
+Size: 3066
+MD5sum: 73f504e0e22c5527132b544b01bded35
+SHA1: 852784553c7257673d86aae0c4eec5cbcbca9912
+SHA256: dda095a6dd9f98fbc16ac20d9884831d313d448fba72de335e4c8c589b46dd9b
+Section: Tweaks
+Description: Hide "Please update from the iOS beta" alert (iOS 9-13.x)
+Author: Ethan Nelson-Moore
+Name: NoBetaAlert
+
 Package: com.r333d.cylinder
 Version: 1.1
 Architecture: iphoneos-arm
@@ -561,6 +627,22 @@ Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
+
+Package: com.sundance.modernui
+Version: 1.0.0-3
+Architecture: iphoneos-arm
+Maintainer: sundance
+Installed-Size: 228
+Depends: mobilesubstrate
+Filename: debs/com.sundance.modernui_1.0.0-3_iphoneos-arm.deb
+Size: 9464
+MD5sum: 647297300179ef99c724adebebf2c1b1
+SHA1: bfa29ce63c81600c38ef5a351bce5d387e868121
+SHA256: 4bfff87d92562d769980f8e07c0dcd5c585608cb0a7bae8a1f85b07734af4b84
+Section: Tweaks
+Description: Forces the iOS 7+ UI for legacy applications linked with iOS 6 or earlier
+Author: sundance
+Name: ModernUI
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-3
@@ -823,6 +905,25 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 Name: Cydia Substrate
 
+Package: net.angelxwind.airspeaker
+Version: 1.4.5
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 5768
+Depends: preferenceloader, net.angelxwind.karenprefs (>= 1.3)
+Filename: debs/nodelete-net.angelxwind.airspeaker.deb
+Size: 3262806
+MD5sum: 5367a244024fe9f764c0a1aa2d616824
+SHA1: 61c689afce00e0318cb9ca7d60d5efadfb02b52b
+SHA256: 6761e3d0becf2d79c7db94a29e60f793fbf17795ef1b749d7b210e6a5d4900a3
+Section: Utilities
+Homepage: https://cydia.akemi.ai/
+Description: Use your iOS device as an AirPlay speaker!
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.airspeaker
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.airspeaker.png
+Name: AirSpeaker
+
 Package: net.angelxwind.appsync40plus
 Version: 1.2.2
 Architecture: iphoneos-arm
@@ -997,6 +1098,27 @@ Icon: file:///Library/PreferenceBundles/Eclipse_Settings.bundle/eclipse@2x.png
 Name: Eclipse (iOS 7)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: org.thebigboss.iconmaker
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 433
+Depends: firmware (>= 4.0)
+Filename: debs/iconmaker_1.2.deb
+Size: 285520
+MD5sum: f1b61c31a7c7778a2d8deefa02ca65c8
+SHA1: 60d0317e2b3bde2acbdea62712dc551f8842b3a9
+SHA256: a8b749ae6a149323c1131830f9e4dbd0c6d0f9f133d99545d6e16899b7a6b7e1
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconmakerData
+Description: make shiny rounded icons for apps
+Author: Philippe <philippemail1@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iconmakerData
+Dev: philippemail1
+Icon: file:///Applications/IconMaker.app/icon.png
+Name: IconMaker
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -1103,6 +1225,24 @@ Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Depiction: http://cydia.invoxiplaygames.uk/dp/simalertsuppression.php
 Name: SIM Alert Suppression
 Sileodepiction: https://cydia.invoxiplaygames.uk/dp/simalertsuppression.json
+
+Package: uk.invoxiplaygames.youtube
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depends: firmware (>= 6.0), firmware (<= 7.0)
+Conflicts: com.tekwik.youtube
+Filename: debs/uk.invoxiplaygames.youtube_1.0_iphoneos-arm.deb
+Size: 311242
+MD5sum: 921e35d1c3c2fb8dadb5da266138b891
+SHA1: f2c45a00a4d9894b20a1a9a4e3ba2d961ba516de
+SHA256: 8ecff5651eee5060242366c6cb4445f174f6ca83ce476a411c58d27feb2ed23d
+Section: Entertainment
+Priority: optional
+Description: Returns the classic YouTube app to iOS 6.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/youtube.php
+Name: Classic YouTube App
 
 Package: us.hackulo.appsync31
 Version: 1.0.2
