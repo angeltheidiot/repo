@@ -74,6 +74,22 @@ Description: ShortLook shows you your notifications at a glance. ShortLook displ
 Author: Dynastic
 Name: ShortLook
 
+Package: com.LegacyGuides.iclassicicon
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Depends: firmware (>= 7.0), firmware (<< 11.0)
+Filename: debs/com.LegacyGuides.iclassicicon_1.0.1_iphoneos-arm.deb
+Size: 80610
+MD5sum: 6edbd4bf053c1749586723e395ecd371
+SHA1: bd84fdacce5ff690552da9d6386853825ff65040
+SHA256: ae14ac1d3fc86d11acfa0373e3b242e5e532f11a2d6a717c4415652c3d4893b0
+Section: Themes
+Priority: optional
+Description: Replaces the Music app icon with the icon featured in the iClassic YouTube video.
+Author: LegacyGuides <contact@legacyios.com>
+Name: iClassic Music Icon
+
 Package: com.afnanahmad.chromahomebarx
 Version: 0.4
 Architecture: iphoneos-arm
@@ -867,6 +883,29 @@ Dev: ashikase
 Name: ShowCase
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: libactivator
+Version: 1.8.1
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 1516
+Depends: mobilesubstrate (>= 0.9.3228), preferenceloader (>= 2.2.1), firmware (>= 3.0), com.a3tweaks.flipswitch
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.clezz.quickdo, com.clezz.quickdoipad, com.clezz.clezzqd, com.fuyuchi.missionboardpro (<= 1.3), com.clezz.qda, com.clezz.qdb, com.clezz.qdc
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.clezz.quickdo, com.clezz.quickdoipad, com.fuyuchi.missionboardpro (<= 1.3), com.clezz.qda, com.clezz.qdb, com.clezz.qdc
+Filename: debs/libactivator_1.8.1_iphoneos-arm.deb
+Size: 562816
+MD5sum: 044f727c5ffb817f3418cb44dfcda429
+SHA1: 6f03ea80c9cdd2523ab476bddab49148cae260b4
+SHA256: de5639059fcb9d649edb40465afc9a5d92298929ec64cb7a5c7668a02ec52165
+Section: System
+Priority: optional
+Homepage: http://rpetri.ch/cydia/activator/
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: http://rpetri.ch/cydia/activator/
+Dev: rpetrich
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: me.conorthedev.shylabels13
 Version: 1.4
 Architecture: iphoneos-arm
@@ -1302,6 +1341,29 @@ Author: Docmorelli <apps@hackulo.us>
 Depiction: http://hackulo.us/depict/crackulous/
 Name: Crackulous
 Sponsor: Hackulo.us <http://hackulo.us>
+
+Package: winterboard
+Version: 0.9.3911
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, libhide (>= 2.0.4), findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Breaks: jp.ashikase.folderenhancer (<< 1.6.0.2-1)
+Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Provides: theme-manager
+Filename: debs/winterboard_0.9.3911_iphoneos-arm.deb
+Size: 167358
+MD5sum: 0990de661192981c584fd4dccc55acba
+SHA1: 7368426110ad22c1f1430b558e55b8b6344f4268
+SHA256: 26b8c8a03a5dbff601b5bedf7e848020fc22830076d7d55b544937810630d6b6
+Section: System
+Priority: optional
+Homepage: http://www.saurik.com/id/9
+Description: more powerful, open-source SummerBoard
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/winterboard/
+Name: WinterBoard
 
 Package: xyz.willy.zebra
 Version: 1.1.36
