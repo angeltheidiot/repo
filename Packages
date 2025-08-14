@@ -584,19 +584,61 @@ Icon: file:///Applications/BatteryLife.app/AppIcon57x57.png
 Name: BatteryLife
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.saurik.substrate.safemode
-Version: 0.9.4000
+Package: com.saurik.afc2d
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 88
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 5274
+MD5sum: c3855443b344bf6caeb7cb1abae4306c
+SHA1: 07455ee0511f185b8529eb97ce84915af77d137d
+SHA256: 2cccef9d6cfdcdc972410680bc652ce40bca0f400439c70c9d6b88adb406fe22
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
+
+Package: com.saurik.impactor
+Version: 0.9.32
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 7.1), firmware (<= 9.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: debs/com.saurik.impactor_0.9.32_iphoneos-arm.deb
+Size: 267598
+MD5sum: c3fac672a34eedb4424eaa3151e8c36c
+SHA1: 3190374d0004d528a25332904fa946c7d2279c3c
+SHA256: bd7e5c314877d3792fad5e10cbc6e492fc1e85bdf815eaf106300d41b71abfb7
+Section: Utilities
+Priority: optional
+Description: specific utility to unjailbreak most devices
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Name: Cydia Eraser
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6001
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 156
 Depends: mobilesubstrate (>= 0.9.3367+38)
 Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
-Filename: debs/com.saurik.substrate.safemode_0.9.4000_iphoneos-arm.deb
-Size: 12784
-MD5sum: 4149821e19504e1dca3883a1dd1a62b1
-SHA1: e458ba00b01f644742d6229b2f22c65d3d39040d
-SHA256: 899c2d258a2503f0b0235365f60e5c25b90161adf7b41e2c00af5965b70995c1
+Filename: debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Size: 13226
+MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
+SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
+SHA256: 86515cb9f6832247dbeae8427b996099dc8759bb1ef1d719c293123f2f531ee1
 Section: Tweaks
 Priority: optional
 Description: safe mode safety extension (safe)
@@ -735,6 +777,22 @@ Homepage: https://twitter.com/xerusdesign
 Description: Felicity, but Pro.
 Author: XerusDesign <unixdesignios@gmail.com>
 Name: Felicity Pro
+
+Package: darwintools
+Version: 1-5
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/darwintools_1-5_iphoneos-arm.deb
+Size: 5674
+MD5sum: 844f9b1965c794941040c59862a2d283
+SHA1: 8776aa4b096b1b06650c75d59ad742b9f4646565
+SHA256: e188cb79f4065207463d1fab1ac69fb1be66d78c91df52c2149a97bb5bd24474
+Section: Administration
+Priority: required
+Description: startupfiletool, sw_vers
+Name: Darwin Tools
 
 Package: dev.mineek.muffinstore
 Version: 0.0.1
@@ -925,24 +983,51 @@ Author: ConorTheDev + NoisyFlake
 Name: ShyLabels
 
 Package: mobilesubstrate
-Version: 0.9.5101
+Version: 0.9.6301
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: com.saurik.substrate.safemode
 Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
 Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
-Filename: debs/mobilesubstrate_0.9.5101_iphoneos-arm.deb
-Size: 79486
-MD5sum: 07e63db96bc81426f215abc93891e70a
-SHA1: 5c28f364a97cf18b58bf4b3df43f2fb7c2233e1c
-SHA256: a4942b467e6cbdb93adaeae4135e9cff804616d752f8f003e75ad13ee51edad4
+Replaces: cycript (<= 0.9.594)
+Filename: debs/mobilesubstrate_0.9.6301_iphoneos-arm.deb
+Size: 122342
+MD5sum: f2ca15c08aab522d8b7e842238aa83c6
+SHA1: 02ad8dce33adae8ba256dd5a4cac3bdf0246deec
+SHA256: 8dc91a066f088632409fecf65613831b8d6802e3b799f2dc87563c3ea2ed06ca
 Section: System
 Priority: optional
 Description: powerful code insertion platform
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 Name: Cydia Substrate
+
+Package: mobileterminal
+Version: 364.1-10
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 536
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: debs/mobileterminal_364.1-10_iphoneos-arm.deb
+Size: 239682
+MD5sum: 1d9fe63d7db1d19e261a01d054476e45
+SHA1: 172ab9bded34511a8b8ffda7dcaa9cec5ea58a93
+SHA256: cad596395fd030eabe928d4ce84343afc3ec8d9156165d5155e0cd91715e492a
+Section: Terminal_Support
+Priority: standard
+Homepage: http://code.google.com/p/mobileterminal/
+Description: local UIKit-based Terminal emulator
+ This is a Terminal emulator for the iPhone. With it you can do all of
+ your standard system administration tasks from anywhere: ssh into
+ remote boxes, download files, edit configuration files, whatever.
+ Please note, though, that this package does not fully work yet on
+ iPhoneOS 2.x. For more information (and a status update) please click
+ below for More Information.
+Author: Allen Porter <allen.porter@gmail.com>
+Depiction: http://cydia.saurik.com/info/mobileterminal/
+Name: MobileTerminal
 
 Package: net.angelxwind.airspeaker
 Version: 1.4.5
@@ -1024,6 +1109,25 @@ Author: Lunatik <lunatik@crazy.net>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=softwareupdatekillerDp
 Dev: lunatik
 Name: Software Update Killer
+
+Package: netatalk
+Version: 2.0.4-7
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 2272
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: berkeleydb (>= 4.6.21-4), gcrypt, mdnsresponder, openssl
+Filename: debs/netatalk_2.0.4-7_iphoneos-arm.deb
+Size: 333836
+MD5sum: ee5dd930ee8ebca32cfd4ddf3f8cf4be
+SHA1: 36f5e4961762b9017e5edd20a7ad5266e42a3c86
+SHA256: 4ef28961538a9e2a943dda75fa5fa53bba095789fcb71d38fff42fb69410fca0
+Section: Networking
+Priority: optional
+Homepage: http://netatalk.sourceforge.net/
+Description: open-source AppleTalk implementation
+Depiction: http://cydia.saurik.com/info/netatalk/
+Name: Netatalk
 
 Package: openssh
 Version: 6.7p1-13
@@ -1115,6 +1219,25 @@ Description: Downgrade your apps. Well, at least try it.
 Author: H6nry <henry.anonym@gmail.com>
 Name: Adowngrader
 
+Package: org.herf.flux
+Version: 0.9988
+Architecture: iphoneos-arm
+Maintainer: Michael Herf <support@justgetflux.com>
+Depends: firmware (>= 5.0), firmware (<< 11), preferenceloader
+Filename: debs/org.herf.flux_0.9988_iphoneos-arm.deb
+Size: 93244
+MD5sum: 4615bc52b0d6ef60a26d0f64154cfe40
+SHA1: 42723b39b542fb7cef31332a6614b12c55e72eb4
+SHA256: e8a73c0e8a8516a8132eedce3fb4b1d8e5ceb3cef17209ead8fdc5ba63adf6a5
+Section: Tweaks
+Priority: standard
+Homepage: https://justgetflux.com/
+Description: warms colors at night to match indoor lighting
+Author: F.lux Software LLC <support@justgetflux.com>
+Depiction: https://justgetflux.com/cydia/
+Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
+Name: f.lux
+
 Package: org.thebigboss.eclipse
 Version: 1.4.6-5
 Architecture: iphoneos-arm
@@ -1157,6 +1280,22 @@ Dev: philippemail1
 Icon: file:///Applications/IconMaker.app/icon.png
 Name: IconMaker
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: org.thebigboss.repo.icons
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 48
+Replaces: cydia, bigboss
+Filename: debs/org.thebigboss.repo.icons_1.0.deb
+Size: 11488
+MD5sum: f286c0da9cf71d206bea9aa6bf225701
+SHA1: 401b49fba4dd88d62c2e76dcaf57562a82a4fa7b
+SHA256: 30076cf7179cc1a25a8c33242b4ca6b8b70edf172d16b1368c232b16e4f93e9f
+Section: Repositories
+Priority: optional
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
 
 Package: org.tihmstar.kDFUApp
 Version: 1.0.3
@@ -1343,27 +1482,42 @@ Name: Crackulous
 Sponsor: Hackulo.us <http://hackulo.us>
 
 Package: winterboard
-Version: 0.9.3911
+Version: 0.9.3919
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Pre-Depends: dpkg (>= 1.13.25-5)
-Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, libhide (>= 2.0.4), findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
 Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
 Breaks: jp.ashikase.folderenhancer (<< 1.6.0.2-1)
 Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
 Provides: theme-manager
-Filename: debs/winterboard_0.9.3911_iphoneos-arm.deb
-Size: 167358
-MD5sum: 0990de661192981c584fd4dccc55acba
-SHA1: 7368426110ad22c1f1430b558e55b8b6344f4268
-SHA256: 26b8c8a03a5dbff601b5bedf7e848020fc22830076d7d55b544937810630d6b6
+Filename: debs/winterboard_0.9.3919_iphoneos-arm.deb
+Size: 111104
+MD5sum: 903869bcc23c88eeb71615e833e626af
+SHA1: 569cc3f77a3ca6cd2046a84bc5c3a68fbb2f00ea
+SHA256: 8cd0ad873eacf4c209e4e89e2e1e0ab0ea963f49cd652ef814ed97d2fb157991
 Section: System
 Priority: optional
 Homepage: http://www.saurik.com/id/9
-Description: more powerful, open-source SummerBoard
+Description: theme manager, used by most themes
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/winterboard/
 Name: WinterBoard
+
+Package: winterboarder.com
+Version: 0-1
+Architecture: iphoneos-arm
+Maintainer: Adrian S. <admin@winterboarder.com>
+Installed-Size: 44
+Filename: debs/winterboarder.com_0-1_iphoneos-arm.deb
+Size: 3728
+MD5sum: ca64cea13ad0650dfcee7b0bd12ad24d
+SHA1: ea16203809adfa85939f7a7a89c8817543f0c2c6
+SHA256: 22cbaf74ac4cd7edd25d7fa1fd7972dc7dd51472e7cf3293b51207f0de23d9b0
+Section: Repositories
+Priority: optional
+Description: where art meets iPhone
+Name: Winterboarder
 
 Package: xyz.willy.zebra
 Version: 1.1.36
