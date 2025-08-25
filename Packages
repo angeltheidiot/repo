@@ -1238,6 +1238,23 @@ Depiction: https://justgetflux.com/cydia/
 Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
 Name: f.lux
 
+Package: org.jyvee8games.itunesfix
+Version: 0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Installed-Size: 464
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Filename: debs/org.jyvee8games.itunesfix_0.1-4+debug_iphoneos-arm.deb
+Size: 95010
+MD5sum: 63a1d56fb266b9dfa6f5c079527c9bb5
+SHA1: bc24765b7a27222890268de9184c0d033a691a61
+SHA256: 5104eb56ce499d883ff452d7b88b62a3fc71c2fc15f58175a28ed24be497d3ff
+Section: Tweaks
+Description: A fix for the iOS 7 AppStore! credits to bag.xml and requis for the oringinal iTunesStoreX tweak
+Author: Jyvee
+Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
+Name: iTunesStoreX7 (BETA)
+
 Package: org.thebigboss.eclipse
 Version: 1.4.6-5
 Architecture: iphoneos-arm
