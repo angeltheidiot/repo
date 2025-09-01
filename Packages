@@ -438,6 +438,22 @@ Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
 Icon: file:///Applications/Eraser.app/Icon-60.png
 Name: Cydia Eraser
 
+Package: com.legacyguides.legacyios8musicicon
+Version: 1.0-b1
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides
+Depends: firmware (>= 7.0), firmware (<= 11.0)
+Filename: debs/com.legacyguides.legacyios8musicicon_1.0-b1_iphoneos-arm.deb
+Size: 15994
+MD5sum: 6b9ea1ca8346c18d498e129442e173c4
+SHA1: 4851662c2eca0107c3ba4b12bcd01b606eaf9466
+SHA256: 69bcee5db3beee97ccb48b04569d3de5ea41c5d76ca158c80206eab550d1d5d8
+Section: Themes
+Priority: optional
+Description: Replaces the iOS 8.4+ Music icon with the one used on iOS 8.0
+Author: LegacyGuides
+Name: Legacy iOS 8 Music Icon
+
 Package: com.lns.pogr
 Version: 0.3.0
 Architecture: iphoneos-arm
