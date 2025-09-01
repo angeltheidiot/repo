@@ -43,6 +43,21 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: anondev.LocalIAPStore
+Version: 1.4-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Filename: debs/anondev.LocalIAPStore_1.4-1_iphoneos-arm.deb
+Size: 71170
+MD5sum: adce93b64675706f4a4c4b5204a1e8fe
+SHA1: c9bb6d2749f5d065e9c29a2a39cf233a3a1465d2
+SHA256: 97d20ebc8f9d96da6f4749499be4664d7ab946d469439b7ab04af1e167afaca2
+Section: Tweaks
+Priority: optional
+Description: Pwns In-app purchases on iOS 5.1.1 - 7.1 (works with developer servers,in-appstore.com DNS needed). 64bit compatible
+Author: anondev
+Name: LocalIAPStore
+
 Package: clutch13
 Version: 1.3
 Architecture: iphoneos-arm
@@ -73,6 +88,20 @@ Section: Tweaks
 Description: ShortLook shows you your notifications at a glance. ShortLook displays on your locked iPhone as you receive a notification using it's beautiful full screen design, allowing for readability from a distance. Made to be as unobtrusive as possible, it dismisses as soon as you tap the screen or Raise to Wake. It's configurable UI and behaviours ensure that ShortLook works how you want it to work.
 Author: Dynastic
 Name: ShortLook
+
+Package: com.KJCracks.ClutchStable
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: ttwj
+Depends: zip
+Filename: debs/ClutchStable.deb
+Size: 122132
+MD5sum: 7e39bb3917b7ac6f069d250b0c93611b
+SHA1: fd07f0fb1d71529dc974f08d236407563a9b21ad
+SHA256: bbaf987755a893667090f964f250596c32a0cdf03f08a94b9c80174006aba50a
+Section: Utilities
+Description: Fast cracking utility for iPhone, iPod and iPad
+Name: Clutch (Stable)
 
 Package: com.LegacyGuides.iclassicicon
 Version: 1.0.1
@@ -151,22 +180,6 @@ Dev: aaronash
 Icon: file:///Applications/WifiPasswordList.app/Icon-60.png
 Name: Wifi Passwords List
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.beta.ios-6-pods-hack
-Version: 2.0.1-beta
-Architecture: iphoneos-arm
-Maintainer: LegacyGuides
-Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
-Filename: debs/ios-6-pods-hack_2.0-BETA2.deb
-Size: 262414
-MD5sum: 0f096e9326d2614f7a98599ec2453816
-SHA1: b0d7c69ff7879ee8845cb0f6250be8a423765f78
-SHA256: 9ba3be1761fdd7c0c2ae1150142eef1a143586de5064d4c6a1e975d12b0f8edc
-Section: Tweaks
-Priority: optional
-Description: workaround for AirPods disconnection issues on iOS 6  (control file improved by LegacyGuides owner)
-Author: asentientbot
-Name: iOS 6 Pods Hack improved (BETA)
 
 Package: com.boo.airport
 Version: 2.1
@@ -269,6 +282,22 @@ Dev: dpkgdan
 Name: Power Tap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.fem67.legacyui
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: fem67
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.fem67.legacyui_0.0.1-1+debug_iphoneos-arm.deb
+Size: 3858
+MD5sum: f8de28f1610cb64f8b1d64e4ed84281e
+SHA1: e05dc30bc05166276ad802b1a43f16856c59c197
+SHA256: f9db49d28c38810688d76886e0ecfb5c45b582ee062771b4a43b0008858767a2
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: fem67
+Name: LegacyUI
+
 Package: com.google.ios.youtube
 Version: 2.2.0
 Architecture: iphoneos-arm
@@ -299,23 +328,6 @@ Author: Genius Blog <admin@hackulo.us>
 Depiction: http://hackulo.us/depict/sourcegui
 Name: Source GUI
 Sponsor: Hackulo.us <http://hackulo.us>
-
-Package: com.hackyouriphone.classiclockscreen
-Version: 3.3.1k
-Architecture: iphoneos-arm
-Maintainer: iLeoLion <repo@hackyouriphone.org>
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), curl, firmware(<< 8.0) | org.coolstar.libclassictelephonyui (>= 1.1-1)
-Filename: debs/org.coolstar..classiclockscreen_3.3.1_iphoneos-arm.deb
-Size: 736186
-MD5sum: 7d5da71444883fec6d4273860d981ca3
-SHA1: 3959241070d7b0a0cd41b21a733aaa70351962e1
-SHA256: 225d085f3b8af7bd9b3f1b479efa56c9804c87e7afa322689dc676ffe83ff2ef
-Section: HYI - Tweaks
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
-Description: Hate the iOS 7 Lock Screen?
-Author: CoolStar, Jeremy Goulet, Phillip Tennen <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=classiclockscreen
-Name: ClassicLockScreen
 
 Package: com.i0s.us.appsyncforaiotill61
 Version: 2.3-5
@@ -843,26 +855,6 @@ Section: Tweaks
 Description: Fixes Google Translate.
 Author: Preloading, SpaceSaver2000-1
 Name: Retranslate
-
-Package: eu.heinelt.ifile
-Version: 2.2.0-1
-Architecture: iphoneos-arm
-Maintainer: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Installed-Size: 20224
-Depends: firmware (>= 2.0), firmware (<= 10.3.4), file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
-Filename: debs/eu.heinelt.ifile_2.2.0-1_iphoneos-arm.deb
-Size: 9735664
-MD5sum: a1709dcd74e46ad4ca71a28955d86214
-SHA1: c4187bc859b1b4705fa1fc527b17f0974dc1891b
-SHA256: f48871ac1912094d6084bd84c53ed18d95fa5f3ae3cb09d602a5581b00fe195c
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Tag: purpose::uikit, cydia::commercial
-Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ifileData
-Dev: carsten
-Name: iFile
 
 Package: hk.org.iphone.mobileinstallation
 Version: 2.2.1
