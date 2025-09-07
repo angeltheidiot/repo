@@ -423,6 +423,22 @@ Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
 Icon: file:///Applications/Eraser.app/Icon-60.png
 Name: Cydia Eraser
 
+Package: com.legacyguides.ios-6-pods-hack
+Version: 2.0.2-test
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 7.0)
+Filename: debs/com.legacyguides.ios-6-pods-hack_2.0.2-test_iphoneos-arm.deb
+Size: 261708
+MD5sum: e41997a2d7bfffab26dd033f4d8c7508
+SHA1: 435ea2ab7df4e7f404288bd2146f4802841c5c8a
+SHA256: 70baf3392cf241a2ed1d04115863e95d9c07837f7cc44263734c19cc500e378c
+Section: Tweaks
+Priority: optional
+Description: workaround for AirPods disconnection issues on iOS 6  (control file improved by LegacyGuides owner)
+Author: asentientbot <asentienbot@gmail.com>
+Name: iOS 6 Pods Hack
+
 Package: com.legacyguides.legacyios8musicicon
 Version: 1.0-b1
 Architecture: iphoneos-arm
