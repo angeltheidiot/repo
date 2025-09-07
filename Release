@@ -1,8 +1,8 @@
 Architectures: iphoneos-arm iphoneos-arm64
 Codename: iOS
 Components: main
-Description: unofficial repo for archiving useful tweaks. This project is not affiliated with or endorsed by Apple Inc. "iOS" and "Apple" are trademarks of Apple Inc., used here only for descriptive and educational purposes.
-Label: Legacy guides
-Origin: Legacy guides
+Description: Warning: This cydia repo hosts some of my early or experimental tweaks. They may be unstable and could cause issues with your device. Do not install unless you accept full responsibility. I am not liable for any damage. You have been warned.
+Label: Legacy guides test
+Origin: Legacy guides test
 Suite: stable
 Version: 1.0
