@@ -593,29 +593,6 @@ Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
 Name: Cylinder
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.rbt.batterylife
-Version: 1.7.0
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 10525
-Depends: firmware (>= 6.0), firmware (<= 11.4.1), mobilesubstrate (>= 0.9.5000), preferenceloader, iokittools
-Conflicts: BatteryLife
-Filename: debs/batterylife_1.7.5.deb
-Size: 3856662
-MD5sum: 395fe80da5291ad2bfd2278cc029e4c7
-SHA1: 609e0ce442ebb703216052337580ef87b77ced16
-SHA256: 4032ed40dbfefe54f448f5da33ce4e504eefedbfe1ddfdbc96fb19ce85763e2b
-Section: Utilities
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterylifeDp
-Description: Displays useful information about battery health
-Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Author: rbt <batterylife1.7.x@rbtdigital.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=batterylifeDp
-Dev: rbtdigital
-Icon: file:///Applications/BatteryLife.app/AppIcon57x57.png
-Name: BatteryLife
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.saurik.afc2d
 Version: 1.2
 Architecture: iphoneos-arm
@@ -750,28 +727,21 @@ Author: sundance
 Name: ModernUI
 
 Package: com.tigisoftware.filza
-Version: 4.0.1-3
+Version: 4.0.1-2
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 31815
-Depends: firmware (>= 7.0), firmware (<= 16.5.1), zip, unzip, gzip, unrar, p7zip
+Maintainer: TIGI Software
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: debs/filza_4.0.1-3.deb
-Size: 13910236
-MD5sum: 00fb5144cf60c4fb3ed64bfa00af0c2c
-SHA1: a7ea49d499a307e6cc6a00fb6a8be48271020380
-SHA256: 0302fa6dc86c21dcdfe0d54e4374aba7c5e725316c34f9adc2d238d71dad14ac
+Filename: debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
+Size: 13929994
+MD5sum: c68a629c82d46f5a49ec8c93b750bb92
+SHA1: 677bae75af27ed30af0934048c439565498a1908
+SHA256: 3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9
 Section: Utilities
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
-Tag: purpose::uikit
-Author: TIGI Software <satashi2009@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
-Dev: satashi2009
-Icon: file:///Applications/Filza.app/AppIcon57x57.png
+Author: TIGI Software
 Name: Filza File Manager
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.unlimapps.uaupdatetools
 Version: 1.0r-102
