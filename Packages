@@ -440,15 +440,15 @@ Author: asentientbot <asentienbot@gmail.com>
 Name: iOS 6 Pods Hack
 
 Package: com.legacyguides.legacyios8musicicon
-Version: 1.0-b1
+Version: 1.0-b2
 Architecture: iphoneos-arm
 Maintainer: LegacyGuides
 Depends: firmware (>= 7.0), firmware (<= 11.0)
-Filename: debs/com.legacyguides.legacyios8musicicon_1.0-b1_iphoneos-arm.deb
-Size: 15994
-MD5sum: 6b9ea1ca8346c18d498e129442e173c4
-SHA1: 4851662c2eca0107c3ba4b12bcd01b606eaf9466
-SHA256: 69bcee5db3beee97ccb48b04569d3de5ea41c5d76ca158c80206eab550d1d5d8
+Filename: debs/com.legacyguides.legacyios8musicicon_1.0-b2_iphoneos-arm.deb
+Size: 15960
+MD5sum: 275477337f02edb1b2002a1835ab6bbb
+SHA1: 403b7bdeba7a3ae0acbd6572ea007b6a4589eb10
+SHA256: faf82c1f5e391c96f5f64ece6bd469d323f3ee71d091180355af98eaf4efd5d9
 Section: Themes
 Priority: optional
 Description: Replaces the iOS 8.4+ Music icon with the one used on iOS 8.0
@@ -1252,21 +1252,21 @@ Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
 Name: f.lux
 
 Package: org.jyvee8games.itunesfix
-Version: 0.1-5+debug
+Version: 0.2-9+debug
 Architecture: iphoneos-arm
-Maintainer: LegacyGuides <admin@legacyios.com>
-Installed-Size: 464
+Maintainer: Jyvee
+Installed-Size: 752
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Filename: debs/org.jyvee8games.itunesfix_0.1-5+debug_iphoneos-arm.deb
-Size: 95028
-MD5sum: cb7ae2018934af5c4084da671940dc3b
-SHA1: f2e10f114eebcc06a18bd736e584d03e61e5695b
-SHA256: ed878b9e364e8d62977b98fd928d5b9c3d6b3940b929cc5af5c547a15447a80d
+Filename: debs/org.jyvee8games.itunesfix_0.2-iphoneos-arm.deb
+Size: 65542
+MD5sum: 0f33483bf01194dde08843a16a5db592
+SHA1: 168e8ff5329c1092e7bfd9fd7534efaa28fa0423
+SHA256: 6c437ab8a7a73cb32ac1c94209e500bd749e6fe22550ec118500259da5ac7804
 Section: Tweaks
-Description: A fix for the iOS 7 AppStore! credits to bag.xml and requis for the oringinal iTunesStoreX tweak
-Author: Jyvee <jyveeanimate@jyveegames.org>
+Description: A fix for the iOS 7 AppStore! Original Tweak & Method by bag.xml & Requis!
+Author: Jyvee
 Icon: file:///Library/Application%20Support/org.jyvee8games.itunesfix/Icon.png
-Name: iTunesStoreX7 (BETA)
+Name: iTunesStoreX7
 
 Package: org.thebigboss.eclipse
 Version: 1.4.6-5
