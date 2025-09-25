@@ -455,6 +455,22 @@ Description: Replaces the iOS 8.4+ Music icon with the one used on iOS 8.0
 Author: LegacyGuides
 Name: Legacy iOS 8 Music Icon
 
+Package: com.legacyguides.pinterestx6
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Depends: firmware (>= 6.0), firmware (<< 11.0)
+Filename: debs/com.legacyguides.pinterestx6_1.0_iphoneos-arm.deb
+Size: 30669826
+MD5sum: 235be5dba201c199ba9f8a34c7a5bf04
+SHA1: 5cdf8ca948e8e7b7dc56eb4c1c3c9e98dd7e9019
+SHA256: 4f6d97c9c71f25d7e68ff22366906877d221d508f9211fa9dee29144b532cf99
+Section: Tweaks
+Priority: optional
+Description: Pinterest patched for iOS 6+
+Author: LegacyGuides <contact@legacyios.com>
+Name: PinterestX for iOS 6+
+
 Package: com.lns.pogr
 Version: 0.3.0
 Architecture: iphoneos-arm
@@ -841,22 +857,6 @@ Section: Utilities
 Description: Downgrade iOS apps easily on-device
 Author: Mineek
 Name: MuffinStore
-
-Package: dev.preloading.retranslate
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: Preloading
-Installed-Size: 56
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/dev.preloading.retranslate_1.0.0_iphoneos-arm.deb
-Size: 3804
-MD5sum: 2df8f6b888c8f8d831f9ded18b8bed15
-SHA1: 8b336144dc914cbb0b03a17f2d4b46dd0e5b4dc3
-SHA256: 6f09654f45fb105b5c0424e567db98fc65ea3aff8a04e809a9f33bc3fd9bb7d0
-Section: Tweaks
-Description: Fixes Google Translate.
-Author: Preloading, SpaceSaver2000-1
-Name: Retranslate
 
 Package: hk.org.iphone.mobileinstallation
 Version: 2.2.1
