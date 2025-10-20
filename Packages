@@ -388,6 +388,22 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.kita.fivestatus
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: kita
+Installed-Size: 840
+Pre-Depends: gsc.hidpi, firmware (>= 6.0) | firmware (<< 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Filename: debs/com.kita.fivestatus_1.0.4_iphoneos-arm.deb
+Size: 168404
+MD5sum: 5824c28ee6ad36481f1a690450aa2dd8
+SHA1: 344ee38c50087b975de97cb28155e27fe2eff100
+SHA256: b4e2ee1db02a9dfbbe345bce4975d77b359db7e07c73a3f76d0cef45cdd9864a
+Section: Tweaks
+Description: Brings back the iOS 5 status bar on iOS 6!
+Author: kita
+Name: FiveStatus
+
 Package: com.kita.maps5
 Version: 1.0.0
 Architecture: iphoneos-arm
