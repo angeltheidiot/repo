@@ -454,6 +454,21 @@ Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
 Icon: file:///Applications/Eraser.app/Icon-60.png
 Name: Cydia Eraser
 
+Package: com.legacyguides.iconfix
+Version: 10.1
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Depends: firmware (<= 6.1.6)
+Filename: debs/com.legacyguides.iconfix_10.1_iphoneos-arm.deb
+Size: 35154
+MD5sum: f730d7713ebc25d483e11aa0221d0ee4
+SHA1: 9810347d54e33f8b0b348d0475c3d77d42a9b647
+SHA256: d3e1df881ae2a71cfde697ee800755aa924fcbb7af55d2bb04b3921ce8836368
+Section: Utilities
+Description: A script that fixes the iFile and MTerminal icons on iOS 6 and below.
+Author: Uniq <joey.t.reinhart@gmail.com>
+Name: iFile/MTerminal icon fix
+
 Package: com.legacyguides.ios-6-pods-hack
 Version: 2.0.1
 Architecture: iphoneos-arm
