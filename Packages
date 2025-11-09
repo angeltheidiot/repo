@@ -388,6 +388,22 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.kita.basebanddisabler
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: kita
+Installed-Size: 40
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.kita.basebanddisabler_0.0.1_iphoneos-arm.deb
+Size: 3370
+MD5sum: d682e3aa0b5788508bfcb777d042a513
+SHA1: 93f2884c047a7ce4ccb3963cee3827ebbf6bf3f5
+SHA256: 0e580a59207ad82c8c2bb62554895ffc0b1cb78128a43a1dd355927dadc82129
+Section: Tweaks
+Description: Disables baseband on iPhones that don't need it, saves battery in the process
+Author: kita
+Name: BasebandDisabler
+
 Package: com.kita.fivestatus
 Version: 1.0.4
 Architecture: iphoneos-arm
