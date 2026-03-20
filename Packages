@@ -1289,16 +1289,16 @@ Icon: file:///Library/PreferenceLoader/Preferences/org.herf.flux.png
 Name: f.lux
 
 Package: org.jyvee8games.itunesfix
-Version: 0.2-9+debug
+Version: 0.2.5-5+debug
 Architecture: iphoneos-arm
 Maintainer: Jyvee
-Installed-Size: 752
+Installed-Size: 6920
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
-Filename: debs/org.jyvee8games.itunesfix_0.2-iphoneos-arm.deb
-Size: 65542
-MD5sum: 0f33483bf01194dde08843a16a5db592
-SHA1: 168e8ff5329c1092e7bfd9fd7534efaa28fa0423
-SHA256: 6c437ab8a7a73cb32ac1c94209e500bd749e6fe22550ec118500259da5ac7804
+Filename: debs/org.jyvee8games.itunesfix_0.2.6-iphoneos-arm.deb
+Size: 938740
+MD5sum: 96ead52bac72d58f150d43f412ed84a6
+SHA1: a0f0b40422ea3f51336e7bfb30a7add6f6ea2d2b
+SHA256: d770313a772ac9cd09d1c70f7c531501fea57aa83231ff6a48fe55d98de7d64d
 Section: Tweaks
 Description: A fix for the iOS 7 AppStore! Original Tweak & Method by bag.xml & Requis!
 Author: Jyvee
