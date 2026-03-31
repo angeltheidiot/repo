@@ -500,6 +500,21 @@ Description: A script that fixes PowerApp and BatteryLife icons on iOS 6 and bel
 Author: LegacyGuides <contact@legacyios.com>
 Name: Powerapp/BatteryLife icon fix
 
+Package: com.legacyguides.iconfix3
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Depends: firmware (<= 6.1.6)
+Filename: debs/com.legacyguides.iconfix3_1.0_iphoneos-arm.deb
+Size: 47448
+MD5sum: dd83b68a98eefab8f4392dee827433b1
+SHA1: c2193f06bc8d0e3f58afbf282d7d383b06d40ba7
+SHA256: 4e787109b04980f689095c4fe03721d0bc6129c82113f76b2f46df83571d9ed1
+Section: Utilities
+Description: A script that fixes Veteris icon on iOS 6 and below.
+Author: LegacyGuides <contact@legacyios.com>
+Name: Veteris icon fix
+
 Package: com.legacyguides.ios-6-pods-hack
 Version: 2.0.1
 Architecture: iphoneos-arm
