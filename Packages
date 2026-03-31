@@ -485,6 +485,21 @@ Description: A script that fixes the iFile and MTerminal icons on iOS 6 and belo
 Author: Uniq <joey.t.reinhart@gmail.com>
 Name: iFile/MTerminal icon fix
 
+Package: com.legacyguides.iconfix2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LegacyGuides <admin@legacyios.com>
+Depends: firmware (<= 6.1.6)
+Filename: debs/com.legacyguides.iconfix2_1.0_iphoneos-arm.deb
+Size: 28894
+MD5sum: 99310450406b0fc65f99ba7302306614
+SHA1: ea10bfbfa9d27fd02d40b138c0b8d50805f0cf73
+SHA256: 1f541b6461a796d1dabc14049872cad0094f0160c631f672d83b88b9bd0f9659
+Section: Utilities
+Description: A script that fixes PowerApp and BatteryLife icons on iOS 6 and below.
+Author: LegacyGuides <contact@legacyios.com>
+Name: Powerapp/BatteryLife icon fix
+
 Package: com.legacyguides.ios-6-pods-hack
 Version: 2.0.1
 Architecture: iphoneos-arm
