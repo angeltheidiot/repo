@@ -388,6 +388,36 @@ Depiction: http://modmyi.com/info/ncsettings.d.php
 Name: NCSettings
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.kainograze.iPresence-Daemon
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kainograze <kainograze@gmail.com>
+Depends: mobilesubstrate (>= 0.9)
+Filename: debs/ipresence-daemon.deb
+Size: 81434
+MD5sum: 01ddda0c50e3f4d062de11f4dff09bde
+SHA1: 94170779f6e076c69445eafe8521c2ea668c7c96
+SHA256: 1a9de2e68abb1fc5913d54400699bca517e581585a7ee600b101da0cec51bcb4
+Section: Tweaks
+Description: your Discord status as your iPod listening activity
+Author: kainograze <kainograze@gmail.com>
+Name: iPresence (Daemon)
+
+Package: com.kainograze.iPresence-Springboard-Helper
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: kainograze <kainograze@gmail.com>
+Depends: mobilesubstrate (>= 0.9)
+Filename: debs/ipresence-helper.deb
+Size: 5554
+MD5sum: 1f9f6233301bdf1bdb1adfa804470a85
+SHA1: a69203af6751d258cb67387fe2e13c97a7439149
+SHA256: 5b0dfddb033ff3fafff5610d778c2bf6bd0bc1ab2c4f005ce35e0f2c6b0b889a
+Section: Tweaks
+Description: your Discord status as your iPod listening activity
+Author: kainograze <kainograze@gmail.com>
+Name: iPresence (Helper)
+
 Package: com.kita.basebanddisabler
 Version: 0.0.1
 Architecture: iphoneos-arm
